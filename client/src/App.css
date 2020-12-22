@@ -1,0 +1,107 @@
+:root {
+  --colorLightBlue: #e7f2fc;
+  --colorBlue: #1f86dc;
+  --colorBlue50: rgb(107, 187, 252);
+  --colorWhite: #fff;
+  --colorBlack70: rgb(4, 32, 54);
+  --colorLightRed: rgba(245, 1, 1, 0.425);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a.textBlue {
+  text-decoration: none !important;
+  transition: 0.4s color ease-in-out;
+}
+a.textBlue:hover {
+  text-decoration: none !important;
+  color: var(--colorBlack70) !important;
+}
+.bgLightBlue {
+  background: var(--colorLightBlue);
+}
+.textBlue {
+  color: var(--colorBlue) !important;
+}
+.textBlue50 {
+  color: var(--colorBlue50) !important;
+}
+.textLightBlue {
+  color: var(--colorLightBlue) !important;
+}
+.bgBlue {
+  background: var(--colorBlue);
+}
+.bgLightRed {
+  background: var(--colorLightRed);
+}
+.height100 {
+  height: 100vh;
+}
+.sizeSocialIcon {
+  font-size: 1.8rem;
+}
+.single-post:hover {
+  color: var(--colorBlue);
+}
+.single-post img:hover {
+  transform: scale(1.1);
+}
+.titlePopulerPost {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--colorBlack70);
+}
+.titlePopulerPost:hover {
+  text-decoration: none;
+  color: var(--colorBlue);
+}
+.carousel-caption a {
+  text-decoration: none;
+  width: 100%;
+  padding: 0 10%;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  color: var(--colorWhite);
+  background: rgb(0, 0, 0, 0.55);
+}
+.carousel-caption a:hover {
+  text-decoration: none;
+  width: 100%;
+  color: var(--colorBlue50);
+}
+.singleCardAllPost a img:hover {
+  transform: scale(0.95);
+}
+footer .fab {
+  font-size: 1.3rem;
+  transition: 0.3s color ease-in-out;
+}
+footer .fab:hover {
+  color: var(--colorBlack70);
+}
+.socialLinksFooter a {
+  text-decoration: none;
+}
+
+/**HomePage css **/
+.homepageHeaderSection {
+  overflow: hidden;
+}
+.appTitle {
+  font-size: 4rem;
+}
+.socialLinksHeader a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.socialLinksHeader a i {
+  color: var(--colorBlack70);
+  transition: 0.3s color ease-in-out;
+}
+.socialLinksHeader a i:hover {
+  color: var(--colorBlue);
+}
